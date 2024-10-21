@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <TonConnectUIProvider
       manifestUrl={
-        "https://github.com/strapko-dev/ton-connect-test/blob/main/tonconnect-manifest.json"
+        "https://raw.githubusercontent.com/strapko-dev/ton-connect-test/refs/heads/main/tonconnect-manifest.json"
       }
     >
       <div>
