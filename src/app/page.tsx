@@ -5,7 +5,9 @@ import Header from "./components/Header";
 export default function Home() {
   return (
     <TonConnectUIProvider
-      manifestUrl={require("../../tonconnect-manifest.json")}
+      manifestUrl={
+        "https://strapko-dev.github.io/ton-connect-test/tonconnect-manifest.json"
+      }
     >
       <div>
         <Header />
