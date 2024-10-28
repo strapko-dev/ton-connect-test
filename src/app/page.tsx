@@ -9,7 +9,7 @@ export default function Home() {
         "https://raw.githubusercontent.com/strapko-dev/ton-connect-test/refs/heads/main/tonconnect-manifest.json"
       }
     >
-      <div>
+      <div className="w-[100%] h-[100vh] flex justify-center items-center">
         <Header />
       </div>
     </TonConnectUIProvider>
